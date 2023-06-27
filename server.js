@@ -6,6 +6,9 @@ const port = 3000;
 
 const app = express();
 app.use('/static', express.static(path.resolve(__dirname, 'public')));
+app.get('/users', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'users.json'))
+})
 
 app.get('/', (req, res) => {
   // Считывает файл по пути и отправляет его содержимое

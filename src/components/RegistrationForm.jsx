@@ -2,8 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { Link } from "react-router-dom";
+import {getUsers} from "../servises/auth.servise";
 
 export default function RegistrationForm() {
+    getUsers();
     return (
         <div className="mt-3 card bg-dark p-3">
             <div className="card-header">
@@ -33,8 +35,8 @@ export default function RegistrationForm() {
                 <div className="row mt-3 text-white">
                     <div className="col-11 offset-1">
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" id="rememberMe" />
-                            <label class="form-check-label" htmlFor="rememberMe">Remember me</label>
+                            <input className="form-check-input" type="checkbox" id="rememberMe" />
+                            <label className="form-check-label" htmlFor="rememberMe">Remember me</label>
                         </div>
                     </div>
                 </div>

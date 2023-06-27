@@ -15,6 +15,7 @@ module.exports = {
             test: /\.jsx?$/,
             use: "babel-loader"
         }
-    ]}
+    ]},
+    devtool: "inline-source-map"
 }
 
