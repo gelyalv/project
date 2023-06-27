@@ -1,0 +1,24 @@
+body{
+    background-image: url(/static/img/1586163301_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.text{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding-top: 70px;
+    font-size: 62px;
+}
+
+.span1{
+    font-weight: bolder;
+}
+
+.span2{
+    text-decoration: underline;
+}
+

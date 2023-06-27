@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+.wrapper {
+    background: #1a1f25;
+    font-family: 'Roboto', sans-serif;
+    min-width: 300px;
+}
+
+.btn-yellow{
+    background-color: #e6b333;
+}
