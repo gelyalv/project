@@ -32,9 +32,9 @@ export default function RegistrationForm() {
                 </div>
                 <div className="row mt-3 text-white">
                     <div className="col-11 offset-1">
-                        <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" id="rememberMe" />
-                            <label class="form-check-label" htmlFor="rememberMe">Remember me</label>
+                        <div className="form-check form-switch">
+                            <input className="form-check-input" type="checkbox" id="rememberMe" />
+                            <label className="form-check-label" htmlFor="rememberMe">Remember me</label>
                         </div>
                     </div>
                 </div>
