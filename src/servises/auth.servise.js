@@ -6,9 +6,8 @@ export function getUsers () {
 
 
 export function getFetchUsers(){
-    let promise = fetch(url, [options])
+
 }
 
 export function getAxiosUsers(){
-    
 }

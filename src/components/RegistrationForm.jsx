@@ -2,8 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 import { Link } from "react-router-dom";
+import {getUsers} from "../servises/auth.servise";
 
 export default function RegistrationForm() {
+    getUsers();
     return (
         <div className="mt-3 card bg-dark p-3">
             <div className="card-header">
